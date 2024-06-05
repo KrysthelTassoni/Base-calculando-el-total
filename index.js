@@ -1,6 +1,6 @@
 precio = 400000;
 
-precioSpan = document.querySelector(".precio-inicial");
+ let precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio;
 
 let sumar = document.querySelector("#sumar");
